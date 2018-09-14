@@ -38,7 +38,7 @@ return [
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'enableStrictParsing' => true, // Только описанное в rules, иначае 404
+            // 'enableStrictParsing' => true, // Только описанное в rules, иначае 404
             'showScriptName' => false,
             'rules' => [
                 '' => 'site/index'
