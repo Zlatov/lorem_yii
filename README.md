@@ -2,9 +2,9 @@
 
 ## Install
 
-1. `cd ~/projects/my && git clone git@github.com:Zlatov/lorem_yii.git`
+1. `mkdir -p ~/projects/my/lorem_yii && cd ~/projects/my/lorem_yii && git clone git@github.com:Zlatov/lorem_yii.git ./`
 2. `composer install`
-3. `./yii init`
+3. `./init`
 4. `./yii migrate`
 5. `./yii user/register {admin} {email}`
 6. `./yii migrate --migrationPath=@yii/rbac/migrations`
